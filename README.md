@@ -1,33 +1,15 @@
 # tipsi-stripe
 
+> ℹ️ Interested in future React Native libraries for the Stripe API? Fill our this interest form to keep up to date: [Stripe React Native Interest Form](https://app.smartsheet.com/b/form/b1a1053eaac7496eb0ae7892ebd68973)
+
+
 [![npm version](https://img.shields.io/npm/v/tipsi-stripe.svg?style=flat-square)](https://www.npmjs.com/package/tipsi-stripe)
 [![build status](https://img.shields.io/travis/tipsi/tipsi-stripe/master.svg?style=flat-square)](https://travis-ci.org/tipsi/tipsi-stripe)
 
-React Native Stripe binding for iOS/Android platforms
+## React Native Stripe binding for iOS/Android platforms
 
-## Strong Customer Authentication (SCA) support
-### PaymentIntents & SetupIntents
-
-Have no fear, it's on its way!
-
-It takes to much resources to release stable version but you can use beta release (and some companies already have been using it since september). It has support for SCA-ready API's and support for some newer features.
-
-Latest beta release is: [8.0.0-beta.11](/CHANGELOG.md)
-
-To upgrade:
-
-```
-# package.json
-"tipsi-stripe": "^8.0.0-beta.11"
-
-# Make sure you are running Stripe 19.0.1 or later
-# ios/Podfile
-pod 'Stripe', '~> 19.0.1'
-pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
-```
-
-Then, join our Discord channel to access the beta, to get support from the contributors, and to help us 
-be aware of any issues you find.  Here is the invite link: https://discord.gg/8g6ppq2
+Join our Discord channel to access the beta, to get support from the contributors, and to help us 
+be aware of any issues you find.  Here is the invite link: https://discord.gg/vmBxnBw
 
 We'll make notifications on that channel as new beta releases are published, along with sharing
 documentation and handling questions.
@@ -57,6 +39,10 @@ npm run build-docs
 ## Changelog
 
 [Full changelog](/CHANGELOG.md)
+
+[[9.0.0 - 2021-03-16 Bumped ios sdk and fixed xcode 12.5]](/CHANGELOG.md#900---2021-03-24)
+
+[[8.0.0] - 2021-01-16 **Breaking changes**](/CHANGELOG.md#800---2021-01-16)
 
 [[7.0.0] - 2019-01-08 **Breaking changes**](/CHANGELOG.md#700---2019-01-08)
 
